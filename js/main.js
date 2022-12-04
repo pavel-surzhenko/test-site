@@ -903,11 +903,14 @@ jQuery(document).ready(function () {
 });
 
 //-------Google map-----------//
+const screenWidth = window.screen.width
 function initMap() {
+    let centerMap = screenWidth == 1200 ? { lat: 47.871043, lng: 35.277348 } : { lat: 47.8704837, lng: 35.2734888 };
+
     let map = new google.maps.Map(
         document.getElementById("google-map-container"),
         {
-            center: { lat: 47.871043, lng: 35.277348 },
+            center: centerMap,
             zoom: 17,
         }
     );
