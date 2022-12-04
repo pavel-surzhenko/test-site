@@ -34,91 +34,10 @@
     font-display: swap;
 }
 
-/* .header {
-    background: linear-gradient(to top, rgba(123, 123, 126, 0.533), rgba(12, 12, 12, 0.616)), linear-gradient(rgba(87,99,111, 0.5), rgba(87,99,111, 0.6)), url('https://stroybirja.km.ua/wp-content/uploads/2021/09/danfoss.jpg') 50% 50% no-repeat;
-}
-.slick-track{
-    display: flex;
-    gap: 30px;
-    padding-top: 10px;
-}
-.slick-list{
-    overflow: hidden;
-}
-
-@media only screen and (min-width: 320px) {
-    .why__main .why_slider {
-        margin-top: 30px;
-    }
-}
-
-
-.why_slider form div {
-    margin-bottom: 10px;
-    width: 100%;
-}
-
-.why_slider form div input {
-    width: 100%;
-    height: 46px;
-    border-radius: 10px;
-    background-color: #fff;
-    border: 1px solid #83919a;
-    padding-left: 15px;
-    margin-bottom: 20px;
-    color: #656568;
-    font-family: 'GothamPro';
-    font-weight: 300;
-    outline: none;
-}
-.why_slider form div input[type='submit']{
-    border-radius: 10px;
-    background-color: #83919a;
-    font-size: 16px;
-    color: #fff;
-    font-family: 'GothamPro';
-    font-weight: 600;
-    outline: none !important;
-    transition: all 0.3s ease;
-    -webkit-transition: 0.3s ease-out;
-    -o-transition: 0.3s ease-out;
-    -moz-transition: 0.3s ease-out;
-    transition: 0.3s ease-out;
-    position: relative;
-    letter-spacing: 1px;
-    box-shadow: inset 0 0 0 0 #fff;
-    border: 1px solid #83919a;
-}
-.why_slider form h2 {
-    color: #3f464b;
-    text-align: center;
-    font-family: 'GothamPro';
-    font-weight: 600;
-    margin-bottom: 10px;
-}
-.error {
-    color: red;
-    margin-left: 5px;
-}
-.why_block video {
-    width: 100%;
-    height: 400px;
-}
-.faq__main__item .hipe {
-    user-select: none;
-} */
-
-/*
-* Prefixed by https://autoprefixer.github.io
-* PostCSS: v8.4.14,
-* Autoprefixer: v10.4.7
-* Browsers: last 4 version
-*/
-
 .header {
-    background: -webkit-gradient(linear, left bottom, left top, from(rgba(123, 123, 126, 0.533)), to(rgba(12, 12, 12, 0.616))), -webkit-gradient(linear, left top, left bottom, from(rgba(87,99,111, 0.5)), to(rgba(87,99,111, 0.6))), url('https://stroybirja.km.ua/wp-content/uploads/2021/09/danfoss.jpg') 50% 50% no-repeat;
-    background: -o-linear-gradient(bottom, rgba(123, 123, 126, 0.533), rgba(12, 12, 12, 0.616)), -o-linear-gradient(rgba(87,99,111, 0.5), rgba(87,99,111, 0.6)), url('https://stroybirja.km.ua/wp-content/uploads/2021/09/danfoss.jpg') 50% 50% no-repeat;
-    background: linear-gradient(to top, rgba(123, 123, 126, 0.533), rgba(12, 12, 12, 0.616)), linear-gradient(rgba(87,99,111, 0.5), rgba(87,99,111, 0.6)), url('https://stroybirja.km.ua/wp-content/uploads/2021/09/danfoss.jpg') 50% 50% no-repeat;
+    background: -webkit-gradient(linear, left bottom, left top, from(rgba(123, 123, 126, 0.533)), to(rgba(12, 12, 12, 0.616))), -webkit-gradient(linear, left top, left bottom, from(rgba(87,99,111, 0.5)), to(rgba(87,99,111, 0.6))), url('img/danfoss.jpg') 50% 50% no-repeat;
+    background: -o-linear-gradient(bottom, rgba(123, 123, 126, 0.533), rgba(12, 12, 12, 0.616)), -o-linear-gradient(rgba(87,99,111, 0.5), rgba(87,99,111, 0.6)), url('img/danfoss.jpg') 50% 50% no-repeat;
+    background: linear-gradient(to top, rgba(123, 123, 126, 0.533), rgba(12, 12, 12, 0.616)), linear-gradient(rgba(87,99,111, 0.5), rgba(87,99,111, 0.6)), url('img/danfoss.jpg') 50% 50% no-repeat;
 }
 .slick-track{
     display: -webkit-box;
