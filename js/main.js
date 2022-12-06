@@ -930,34 +930,17 @@ window.initMap = initMap;
 //-------------------SLider------------------------//
 $(document).ready(function () {
     $(".slider").slick({
-        arrows: false,
-        dots: false,
-        slidesToShow: 6,
+        arrows: true,
+        dots: true,
+        slidesToShow: 1,
         autoplay: true,
         speed: 1500,
         autoplaySpeed: 500,
         waitForAnimate: true,
-        responsive: [
-            {
-                breakpoint: 1300,
-                settings: {
-                    slidesToShow: 4,
-                },
-            },
-            {
-                breakpoint: 767,
-                settings: {
-                    slidesToShow: 3,
-                    autoplaySpeed: 1000,
-                },
-            },
-            {
-                breakpoint: 500,
-                settings: {
-                    slidesToShow: 2,
-                },
-            },
-        ],
+        fade: true,
+        cssEase: 'linear',
+        waitForAnimate: false,
+        
     });
 });
 
