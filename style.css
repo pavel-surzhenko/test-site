@@ -149,10 +149,10 @@
         max-width: none;
     }
     .slider .slick-arrow.slick-next{
-        right: 15%;
+        right: 7%;
     }
     .slider .slick-arrow.slick-prev{
-        left: 15%;
+        left: 7%;
     }
     .slider {
         margin-top: 20px;
@@ -166,6 +166,10 @@
         width: 15px;
         height: 15px;
         margin: 0 7px;
+    }
+    .slick-list{
+        max-width: 250px;
+        margin: 0 auto;
     }
 }
 
