@@ -251,6 +251,13 @@
     font-weight: 300;
     outline: none;
 }
+.why_slider form div input.invalid{
+    border-color: #f00 !important;
+    border: 1px solid #f00;
+    transition: 0.5s ease;
+}
+.why_slider form div input.invalid::placeholder { color: red; }
+
 .why_slider form div input[type='submit']{
     border-radius: 10px;
     background-color: #83919a;

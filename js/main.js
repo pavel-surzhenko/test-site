@@ -953,55 +953,43 @@ $(document).ready(function () {
         let email = $("#email").val();
         let tel = $("#tel").val();
 
-        $(".error").remove();
+        $(".invalid").removeClass('invalid');
 
         if (first_name.length < 1) {
-            $("#first_name").after(
-                `<span class="error">Обов'язкове поле</span>`
-            );
+            $("#first_name").addClass("invalid")
         } else {
             let regEx = /^[a-zа-яё]+$/gi;
             let validName = regEx.test(first_name);
             if (!validName) {
-                $("#first_name").after(
-                    '<span class="error">Тільки букви</span>'
-                );
+                $("#first_name").addClass("invalid")
             }
         }
         if (last_name.length < 1) {
-            $("#last_name").after(
-                `<span class="error">Обов'язкове поле</span>`
-            );
+            $("#last_name").addClass("invalid")
         } else {
             let regEx = /^[a-zа-яё]+$/gi;
             let validLastName = regEx.test(last_name);
             if (!validLastName) {
-                $("#last_name").after(
-                    '<span class="error">Тільки букви</span>'
-                );
+                $("#last_name").addClass("invalid")
             }
         }
         if (email.length < 1) {
-            $("#email").after(`<span class="error">Обов'язкове поле</span>`);
+            $("#email").addClass("invalid");
         } else {
             let regEx =
                 /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
             let validEmail = regEx.test(email);
             if (!validEmail) {
-                $("#email").after(
-                    '<span class="error">Введіть правильну пошту</span>'
-                );
+                $("#email").addClass("invalid")
             }
         }
         if (tel.length < 10) {
-            $("#tel").after(
-                '<span class="error">Телефон повинен бути не менше 10 цифр</span>'
-            );
+            $("#tel").addClass("invalid")
         } else {
             let regEx = /^[0-9]+$/;
             let validNumber = regEx.test(tel);
             if (!validNumber) {
-                $("#tel").after('<span class="error">Тільки цифри</span>');
+                $("#tel").addClass("invalid");
             }
         }
     });
